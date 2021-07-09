@@ -1,5 +1,5 @@
-var sosChallenge = artifacts.require("./smart.sol");
+var SosChallenge = artifacts.require("./SosChallenge.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(sosChallenge);
+  deployer.deploy(SosChallenge);
 };
