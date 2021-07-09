@@ -1,6 +1,6 @@
 pragma solidity ^0.5.16;
 
-contract Smart {
+contract SosChallenge {
   uint public count = 0;
   
 }
