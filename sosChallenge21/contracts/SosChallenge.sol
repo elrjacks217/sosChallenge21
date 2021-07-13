@@ -9,7 +9,7 @@ contract SosChallenge {
     bool updated;
   }
   
-  mapping(unit => Profile) public profiles;
+  mapping(uint => Profile) public profiles;
   
   function createProfile(string memory _content) public {
   
