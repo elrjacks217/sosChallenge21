@@ -4,14 +4,14 @@ contract SosChallenge {
   uint public count = 0;
   
   struct Profile{
-    unit id;
+    uint id;
     string content;
     bool updated;
   }
   
   mapping(unit => Profile) public profiles;
   
-  function createProfile(string memore _content) public {
+  function createProfile(string memory _content) public {
   
   }
 }
