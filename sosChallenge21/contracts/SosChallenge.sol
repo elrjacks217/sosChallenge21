@@ -11,7 +11,12 @@ contract SosChallenge {
   
   mapping(uint => Profile) public profiles;
   
-  function createProfile(string memory _content) public {
+  constructor() public {
+    createProfile("Create a Profile!");
+  }
   
+  function createProfile(string memory _content) public {
+    count++;
+    Profile[count] = Profile(count, _content, false);  
   }
 }
